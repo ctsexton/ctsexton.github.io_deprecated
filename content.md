@@ -40,7 +40,7 @@ skills:
     - title: Google Developer APIs
       icon: fab fa-google
 experience:
-  - title: LA RailStats
+  - title: RailStats LA
     role: Full Stack Software Developer
     time: June 2018 - present
     location: Los Angeles, CA
@@ -53,7 +53,11 @@ experience:
       - QGIS
     link: https://la.railstats.org
     code: https://github.com/metro-ontime
-    description: Core developer for LA RailStats, a public/private Partnership between Hack for LA & the LA Metro. RailStats is a live updating performance monitor for the LA Metro Rail. We provide regular reports on on-time performance for all 6 lines of the LA rail network.
+    description: Performance tracking engine and front end app for the Los Angeles Metro Rail Network
+    bullets: 
+      - Core developer for LA RailStats, a public/private Partnership between Hack for LA & the LA Metro. 
+      - RailStats is a live updating performance monitor for the LA Metro Rail. 
+      - We provide regular reports on on-time performance for all 6 lines of the LA rail network.
     id: railstats
     image: railstats.jpg
   - title: Fantasmo
@@ -67,7 +71,11 @@ experience:
       - GeoPandas
       - Meshlab
     link: https://fantasmo.io/
-    description: Produced GeoJSON data for a 3D Mapping startup. 3D point cloud data, collected via cameras mounted on scooters, was processed to generate accurate & detailed GeoJSON files outlining streets and sidewalks. Developed a command line CRS (coordinate reference system) re-projection app to convert Cartesian coordinates to global coordinates, useful for positioning shapes on maps.
+    description: The decentralized 3D map of the world
+    bullets: 
+      - Produced GeoJSON data for a 3D Mapping startup. 
+      - 3D point cloud data, collected via cameras mounted on scooters, was processed to generate accurate & detailed GeoJSON files outlining streets and sidewalks. 
+      - Developed a command line CRS (coordinate reference system) re-projection app to convert Cartesian coordinates to global coordinates, useful for positioning shapes on maps.
     id: fantasmo
     image: fantasmo.jpg
   - title: White Rabbit ICOs
@@ -78,7 +86,9 @@ experience:
       - Ruby on Rails
       - PostgreSQL
     link: https://www.whiterabbiticos.com/icos/neo
-    description: Contributed production code to popular cryptocurrency ICO discovery/news site. Refactored codebase to improve page routing and increase scalability.
+    bullets: 
+      - Contributed production code to popular cryptocurrency ICO discovery/news site. 
+      - Refactored codebase to improve page routing and increase scalability.
     id: whiterabbit
     image: whiterabbit.jpg
 portfolio:
