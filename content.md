@@ -99,7 +99,8 @@ portfolio:
       - CockpitCMS
     link: https://thomaswaltrichmusic.com/
     code: https://github.com/ctsexton/tomwaltrich/
-    description: Responsive site built with Vue.js.
+    bullets: 
+      - Responsive site built with Vue.js.
     id: thomaswaltrich
     image: waltrich.jpg
   - title: Danny Fischer
@@ -108,7 +109,10 @@ portfolio:
       - Google Calendar API
     link: https://dannyfischer.com.au/
     code: https://github.com/ctsexton/dannyfischer
-    description: Responsive site built with OctoberCMS. Plugins/components I coded include the Events plugin, album covers page, a "quote machine" written in Javascript, and a simple blog page. Danny is able to easily update the site content using simple back end forms.
+    bullets: 
+      - Responsive site built with OctoberCMS. 
+      - Plugins/components I coded include the Events plugin, album covers page, a "quote machine" written in Javascript, and a simple blog page. 
+      - Danny is able to easily update the site content using simple back end forms.
     id: dannyfischer
     image: dannyfischer.jpg
   - title: Audionamix
@@ -118,7 +122,10 @@ portfolio:
        - FontAwesome
     link: https://ctsexton.github.io/audionamix/
     code: https://github.com/ctsexton/audionamix
-    description: Mock up product page for audio software. Fully responsive design built with Vue.js. A strong landing page layout for software products - specifies major software features and system requirements.
+    bullets: 
+      - Mock up product page for audio software. 
+      - Fully responsive design built with Vue.js. 
+      - A strong landing page layout for software products - specifies major software features and system requirements.
     id: audionamix
     image: audionamix.jpg
   - title: LA Metro Tracker
@@ -127,7 +134,10 @@ portfolio:
       - LA Metro API
     link: http://metro.camsexton.com/
     code: https://github.com/ctsexton/metro-tracker
-    description: A bus tracking app for the LA metro made with React. Very fast and simple UI - input the bus line no. and see the most recent known positions of all buses on that line displayed on a map. Updates positions from NextBus API every 10 seconds. I use it every day!
+    bullets: 
+      - A bus tracking app for the LA metro made with React. 
+      - Very fast and simple UI - input the bus line no. and see the most recent known positions of all buses on that line displayed on a map. 
+      - Updates positions from NextBus API every 10 seconds. I use it every day!
     id: metro
     image: metro.jpg
   - title: Dashboard UI
@@ -136,7 +146,11 @@ portfolio:
       - Nuxt
     link: https://ctsexton.github.io/dashboard/
     code: https://github.com/ctsexton/dashboard
-    description: Built with Vue.js and Vuex. Responsive UI that adapts to all screen sizes. Click the cog icon to access the settings panel. All changes are auto-saved to local storage - so the user can reload the page or even restart their browser and keep their settings... without requiring a sign-up process. Neat!
+    bullets: 
+      - Built with Vue.js and Vuex. 
+      - Responsive UI that adapts to all screen sizes. 
+      - Click the cog icon to access the settings panel. 
+      - All changes are auto-saved to local storage - so the user can reload the page or even restart their browser and keep their settings... without requiring a sign-up process. Neat!
     id: dashboard
     image: dashboard.jpg
 education:
