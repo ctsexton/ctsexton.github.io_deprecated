@@ -10,6 +10,11 @@ about:
   focuses:
     - Front End Development with React & Vue
     - Data Analysis with Python
+  whatIBring:
+    - A holistic understanding of <i>systems</i> - I make it my business to know small the details and how they fit into the structural architecture of the problem domain.
+    - A preference for simple, easy to understand solutions explained with no technical jargon.
+    - Working code. Readable & documented.
+    - Humility, mentorship & paying it forward - I love both learning from others and sharing what I have learned. I also worked for several years as a (music) teacher and have a healthy skepticism for expensive code bootcamps. Everything we need to know is available freely on the web and if I can save you several hours/weeks by pointing you in the right direction then we can achieve far more, faster!
 skills:
   Frontend:
     - title: React
