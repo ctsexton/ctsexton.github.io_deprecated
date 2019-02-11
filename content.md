@@ -6,6 +6,10 @@ profile:
   phone: 323 286 7083
 about:
   description: Hi, I'm Cam! A software developer and musician, focused on building functional, efficient software.
+  location: Los Angeles, CA
+  focuses:
+    - Front End Development with React & Vue
+    - Data Analysis with Python
 skills:
   Frontend:
     - title: React
