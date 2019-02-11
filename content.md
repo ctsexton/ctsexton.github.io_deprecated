@@ -33,11 +33,11 @@ skills:
     - title: GeoJSON
       icon: fas fa-globe-americas
   Systems:
-    - title: AWS (EC2, S3)
+    - title: AWS
       icon: fab fa-aws
     - title: DigitalOcean
       icon: fab fa-digital-ocean
-    - title: Google Developer APIs
+    - title: Google APIs
       icon: fab fa-google
 experience:
   - title: RailStats LA
