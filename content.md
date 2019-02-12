@@ -1,20 +1,16 @@
 ---
-profile:
-  name: Cam Sexton
-  job: Front End Developer
-  email: cameron.t.sexton@gmail.com
-  phone: 323 286 7083
 about:
-  description: Hi, I'm Cam! A software developer and musician, focused on building functional, efficient software.
   location: Los Angeles, CA
-  focuses:
-    - Front End Development with React & Vue
-    - Data Analysis with Python
+  github: https://github.com/ctsexton
+  quote: Ever iterating, constantly learning, always improving.
+  description: 
+    - As a full stack developer, I focus on delivering user-friendly and reliable solutions rapidly. I am a generalist with a wide range of experience using modern web development and data analysis tools. 
+    - I got my start as a programmer developing my own electronic musical instruments, and I wrote a <a target="_blank" href="https://ctsexton.github.io/camsexton_thesis2017.pdf">thesis</a> on user-interface design in music hardware and software. This knowledge translates well to building more general applications, so now I design all kinds of stuff.
   whatIBring:
-    - A holistic understanding of <i>systems</i> - I make it my business to know small the details and how they fit into the structural architecture of the problem domain.
+    - A holistic understanding of <i>systems</i> - I make it my business to know how the small details fit into the bigger picture.
     - A preference for simple, easy to understand solutions explained with no technical jargon.
     - Working code. Readable & documented.
-    - Humility, mentorship & paying it forward - I love both learning from others and sharing what I have learned. I also worked for several years as a (music) teacher and have a healthy skepticism for expensive code bootcamps. Everything we need to know is available freely on the web and if I can save you several hours/weeks by pointing you in the right direction then we can achieve far more, faster!
+    - Humility, mentorship & paying it forward - I love both learning from others and sharing what I have learned. I also worked for several years as a (music) teacher and have a healthy skepticism for expensive code bootcamps.
 skills:
   Frontend:
     - title: React
