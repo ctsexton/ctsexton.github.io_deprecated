@@ -64,7 +64,7 @@ experience:
       - RailStats is a live updating performance monitor for the LA Metro Rail. 
       - We provide regular reports on on-time performance for all 6 lines of the LA rail network.
     id: railstats
-    image: railstats.jpg
+    image: demo.jpg
   - title: Fantasmo
     role: GIS Engineer
     time: Oct 2018 - Dec 2018
