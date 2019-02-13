@@ -46,7 +46,7 @@ skills:
       icon: fab fa-google
 experience:
   - title: RailStats LA
-    role: Full Stack Software Developer
+    role: Full Stack Developer
     time: June 2018 - present
     location: Los Angeles, CA
     tools: 
@@ -58,11 +58,13 @@ experience:
       - QGIS
     link: https://la.railstats.org
     code: https://github.com/metro-ontime
-    description: Performance tracking engine and front end app for the Los Angeles Metro Rail Network
+    description: Performance tracking engine and front end app for the Los Angeles Metro Rail Network.
     bullets: 
-      - Core developer for LA RailStats, a public/private Partnership between Hack for LA & the LA Metro. 
-      - RailStats is a live updating performance monitor for the LA Metro Rail. 
-      - We provide regular reports on on-time performance for all 6 lines of the LA rail network.
+      - Worked as a Senior Developer, leading a partnership between Hack for LA & LA Metro.
+      - Wrote a train network monitoring tool in Python (open source too!), which tracks vehicle positions over time and runs automated performance measurements, uploading results to AWS S3 on an hourly basis.
+      - Optimized Python execution time on large data sets with Pandas and Numpy libraries.
+      - Using React, I developed the statistical summary and trip visualizer pages for the front end.
+      - Designed responsive page layouts with Material-UI, implementing Material Design best practices for mobile-first web applications.
     id: railstats
     image: demo.jpg
   - title: Fantasmo
@@ -76,26 +78,45 @@ experience:
       - GeoPandas
       - Meshlab
     link: https://fantasmo.io/
-    description: The decentralized 3D map of the world
+    description: The decentralized 3D map of the world.
     bullets: 
-      - Produced GeoJSON data for a 3D Mapping startup. 
-      - 3D point cloud data, collected via cameras mounted on scooters, was processed to generate accurate & detailed GeoJSON files outlining streets and sidewalks. 
-      - Developed a command line CRS (coordinate reference system) re-projection app to convert Cartesian coordinates to global coordinates, useful for positioning shapes on maps.
+      - Worked with 3D mapping startup to transform geographic datasets.
+      - I processed 3D point clouds, collected via cameras mounted on scooters, to produce GeoJSON files outlining major geographic features (streets, sidewalks, construction zones) on a map.
+      - Used QGIS to refine and label GeoJSON documents.
+      - Developed a CRS (coordinate reference system) tool in Python, which converts Cartesian coordinates to spherical/global coordinates in order to project arbitrary shapes onto maps.
     id: fantasmo
     image: fantasmo.jpg
   - title: White Rabbit ICOs
     role: Front End Developer
     time: Aug 2018 - Sep 2018
     location: Santa Monica, CA (Remote)
+    description: ICO discovery site, Blockchain startup.
     tools: 
       - Ruby on Rails
       - PostgreSQL
     link: https://www.whiterabbiticos.com/icos/neo
     bullets: 
-      - Contributed production code to popular cryptocurrency ICO discovery/news site. 
-      - Refactored codebase to improve page routing and increase scalability.
+      - Implemented the NEO coin ICO discovery page on popular cryptocurrency ICO discovery/news site.
+      - Refactored Ruby on Rails app to improve page routing and separate content from layout logic.
     id: whiterabbit
     image: whiterabbit.jpg
+  - title: CTS Web Design
+    role: Full Stack Developer
+    time: Mar 2017 - present
+    location: Los Angeles, CA
+    description: Simple, fast, affordable websites for small business.
+    tools: 
+      - Vue.js
+      - Docker
+      - Nginx
+      - CockpitCMS
+    link:
+    bullets: 
+      - Using Vue.js with Nuxt to rapidly develop websites for small businesses.
+      - I craft mobile-optimized page layouts with Vuetify and custom CSS, focusing on simple, creative and colorful designs.
+      - Using Docker and CockpitCMS as a RESTful API to serve content, I reduced infrastructure setup time to under 5 minutes for each new website. The backend (hosted on AWS EC2), is extremely cheap to run and setup to automatically restart on failure.
+    id: ctswebdesign
+    image:
 portfolio:
   - title: Thomas Waltrich Music 
     tools: 
