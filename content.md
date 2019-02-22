@@ -58,13 +58,13 @@ experience:
       - QGIS
     link: https://la.railstats.org
     code: https://github.com/metro-ontime
-    description: Performance tracking engine and front end app for the Los Angeles Metro Rail Network.
+    description: Performance tracking for the Los Angeles Metro Rail Network.
     bullets: 
-      - Worked as a Senior Developer, leading a partnership between Hack for LA & LA Metro.
-      - Wrote a train network monitoring tool in Python (open source too!), which tracks vehicle positions over time and runs automated performance measurements, uploading results to AWS S3 on an hourly basis.
-      - Optimized Python execution time on large data sets with Pandas and Numpy libraries.
-      - Using React, I developed the statistical summary and trip visualizer pages for the front end.
-      - Designed responsive page layouts with Material-UI, implementing Material Design best practices for mobile-first web applications.
+      - Lead a partnership between Hack for LA & LA Metro to build an open-source on-time performance tool for the train network.
+      - Architected & coded a data analysis engine in Python to track vehicle locations over time and run automated statistical analyses continuously.
+      - Optimized Python execution on large data sets with Pandas and Numpy libraries, reducing computation time by 80%.
+      - Wrote unit tests to improve reliability, resulting in robust codebase that copes with challenging time and scheduling conditions.
+      - Using React and Highcharts, I developed the statistical summary and Marey Diagram views for the front end site.
     id: railstats
     image: demo.jpg
   - title: Fantasmo
@@ -107,17 +107,46 @@ experience:
     description: Simple, fast, affordable websites for small business.
     tools: 
       - Vue.js
+      - Nuxt
       - Docker
       - Nginx
       - CockpitCMS
     link:
     bullets: 
-      - Using Vue.js with Nuxt to rapidly develop websites for small businesses.
-      - I craft mobile-optimized page layouts with Vuetify and custom CSS, focusing on simple, creative and colorful designs.
+      - Rapidly developing high quality websites with modern tools and frameworks.
+      - I craft mobile-optimized page layouts with Vuetify and custom CSS, producing simple, clear and <i>content-focused</i> designs.
       - Using Docker and CockpitCMS as a RESTful API to serve content, I reduced infrastructure setup time to under 5 minutes for each new website. The backend (hosted on AWS EC2), is extremely cheap to run and setup to automatically restart on failure.
     id: ctswebdesign
     image: whiterabbit.jpg
 portfolio:
+  - title: RailStats LA
+    tools: 
+      - Python
+      - Pandas
+      - QGIS
+      - React
+      - Javascript
+    link: https://la.railstats.org
+    code: https://github.com/metro-ontime/frontend
+    bullets: 
+      - React app providing frequently updating statistics on LA Metro rail on-time performance.
+      - Marey diagrams provide a visual, intuitive comparison of train journeys with the schedule over time.
+      - Responsive page layouts built with Material-UI, implementing Material Design best practices for mobile-first web applications.
+    id: railstatsla
+    image: railstats.jpg
+  - title: Danny Fischer
+    tools: 
+      - OctoberCMS 
+      - PHP
+      - Google Calendar API
+    link: https://dannyfischer.com.au/
+    code: https://github.com/ctsexton/dannyfischer
+    bullets: 
+      - Artist site built with OctoberCMS. 
+      - Responsive, bold and colorful design.
+      - Google Calendar integration for Events page - client can create/update/delete events directly from the Google Calendar app.
+    id: dannyfischer
+    image: dannyfischer.jpg
   - title: Thomas Waltrich Music 
     tools: 
       - Vue
@@ -126,21 +155,11 @@ portfolio:
     link: https://thomaswaltrichmusic.com/
     code: https://github.com/ctsexton/tomwaltrich/
     bullets: 
-      - Responsive site built with Vue.js.
+      - Responsive site built with Vue.js and Vuetify.
+      - Server-side rendering with Nuxt provides both excellent SEO and fast client-side loading.
+      - CockpitCMS for simple and elegant content management, served over an API.
     id: thomaswaltrich
     image: waltrich.jpg
-  - title: Danny Fischer
-    tools: 
-      - OctoberCMS 
-      - Google Calendar API
-    link: https://dannyfischer.com.au/
-    code: https://github.com/ctsexton/dannyfischer
-    bullets: 
-      - Responsive site built with OctoberCMS. 
-      - Plugins/components I coded include the Events plugin, album covers page, a "quote machine" written in Javascript, and a simple blog page. 
-      - Danny is able to easily update the site content using simple back end forms.
-    id: dannyfischer
-    image: dannyfischer.jpg
   - title: Audionamix
     tools: 
        - Vue 
@@ -163,7 +182,7 @@ portfolio:
     bullets: 
       - A bus tracking app for the LA metro made with React. 
       - Very fast and simple UI - input the bus line no. and see the most recent known positions of all buses on that line displayed on a map. 
-      - Updates positions from NextBus API every 10 seconds. I use it every day!
+      - Updates positions from NextBus API every 10 seconds.
     id: metro
     image: metro.jpg
   - title: Dashboard UI
@@ -174,7 +193,7 @@ portfolio:
     code: https://github.com/ctsexton/dashboard
     bullets: 
       - Built with Vue.js and Vuex. 
-      - Responsive UI that adapts to all screen sizes. 
+      - Custom settings panel and "HSL" slider component.
       - Click the cog icon to access the settings panel. 
       - All changes are auto-saved to local storage - so the user can reload the page or even restart their browser and keep their settings... without requiring a sign-up process. Neat!
     id: dashboard
