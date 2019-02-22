@@ -116,7 +116,7 @@ experience:
       - I craft mobile-optimized page layouts with Vuetify and custom CSS, focusing on simple, creative and colorful designs.
       - Using Docker and CockpitCMS as a RESTful API to serve content, I reduced infrastructure setup time to under 5 minutes for each new website. The backend (hosted on AWS EC2), is extremely cheap to run and setup to automatically restart on failure.
     id: ctswebdesign
-    image:
+    image: whiterabbit.jpg
 portfolio:
   - title: Thomas Waltrich Music 
     tools: 
