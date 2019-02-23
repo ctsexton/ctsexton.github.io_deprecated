@@ -53,6 +53,8 @@ experience:
       - React
       - Next.js
       - Material-UI
+      - Node.js
+      - Express
       - Python
       - Pandas
       - QGIS
@@ -72,11 +74,11 @@ experience:
     time: Oct 2018 - Dec 2018
     location: Venice, CA (Remote)
     tools: 
-      - Blender
-      - QGIS
       - Python
-      - GeoPandas
+      - QGIS
       - Meshlab
+      - Blender
+      - GeoPandas
     link: https://fantasmo.io/
     description: The decentralized 3D map of the world.
     bullets: 
@@ -106,26 +108,28 @@ experience:
     location: Los Angeles, CA
     description: Simple, fast, affordable websites for small business.
     tools: 
+      - React
       - Vue.js
-      - Nuxt
+      - Node.js
       - Docker
       - Nginx
       - CockpitCMS
     link:
     bullets: 
-      - Rapidly developing high quality websites with modern tools and frameworks.
-      - I craft mobile-optimized page layouts with Vuetify and custom CSS - producing simple, clear and <i>content-focused</i> designs.
-      - Using Docker and CockpitCMS as a RESTful API to serve content, I reduced infrastructure setup time to under 5 minutes for each new website. The backend (hosted on AWS EC2), is extremely cheap to run and setup to automatically restart on failure.
+      - Using React & Vue.js to rapidly develop high quality websites for small businesses.
+      - Achieved 100% SEO and Best Practises scores with Google Lighthouse Website Audit tool.
+      - I craft responsive, mobile-optimized page layouts with CSS - producing simple, clear and <i>content-focused</i> designs.
+      - Reduced infrastructure setup time to under 5 minutes for each new website with Docker and CockpitCMS as a RESTful API to serve content.
     id: ctswebdesign
     image: whiterabbit.jpg
 portfolio:
   - title: RailStats LA
     tools: 
+      - React
+      - Javascript
       - Python
       - Pandas
       - QGIS
-      - React
-      - Javascript
     link: https://la.railstats.org
     code: https://github.com/metro-ontime/frontend
     bullets: 
