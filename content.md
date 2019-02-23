@@ -62,8 +62,8 @@ experience:
     bullets: 
       - Lead a partnership between Hack for LA & LA Metro to build an open-source on-time performance tool for the train network.
       - Architected & coded a data analysis engine in Python to track vehicle locations over time and run automated statistical analyses continuously.
-      - Optimized Python execution on large data sets with Pandas and Numpy libraries, reducing computation time by 80%.
-      - Wrote unit tests to improve reliability, resulting in robust codebase that copes with challenging time and scheduling conditions.
+      - Optimized Python execution on large data sets with Pandas and Numpy libraries, achieving low computation times under tight resource contraints.
+      - Wrote unit tests to improve reliability, resulting in a robust codebase that copes with challenging time and scheduling conditions.
       - Using React and Highcharts, I developed the statistical summary and Marey Diagram views for the front end site.
     id: railstats
     image: demo.jpg
@@ -114,7 +114,7 @@ experience:
     link:
     bullets: 
       - Rapidly developing high quality websites with modern tools and frameworks.
-      - I craft mobile-optimized page layouts with Vuetify and custom CSS, producing simple, clear and <i>content-focused</i> designs.
+      - I craft mobile-optimized page layouts with Vuetify and custom CSS - producing simple, clear and <i>content-focused</i> designs.
       - Using Docker and CockpitCMS as a RESTful API to serve content, I reduced infrastructure setup time to under 5 minutes for each new website. The backend (hosted on AWS EC2), is extremely cheap to run and setup to automatically restart on failure.
     id: ctswebdesign
     image: whiterabbit.jpg
