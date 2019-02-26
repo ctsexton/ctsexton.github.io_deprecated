@@ -4,8 +4,8 @@ about:
   github: https://github.com/ctsexton
   quote: Ever iterating, constantly learning, always improving.
   description: 
-    - As a full stack developer, I focus on delivering user-friendly and reliable solutions rapidly. I am a generalist with a wide range of experience using modern web development and data analysis tools. 
-    - I got my start as a programmer developing my own electronic musical instruments, and I wrote a <a target="_blank" href="https://ctsexton.github.io/camsexton_thesis2017.pdf">thesis</a> on user-interface design in music hardware and software. This knowledge translates well to building more general applications, so now I design all kinds of stuff.
+    - As a full stack developer, I aim to deliver user-friendly and reliable software rapidly. I am a generalist with a wide range of experience using modern web development and data analysis tools. 
+    - I started off as a programmer developing my own electronic musical instruments, and wrote a <a target="_blank" href="https://ctsexton.github.io/camsexton_thesis2017.pdf">thesis</a> on the interface design process. This knowledge translates well to building more general applications, so now I create solutions in a wide variety of contexts.
   whatIBring:
     - A holistic understanding of <i>systems</i> - I make it my business to know how the small details fit into the bigger picture.
     - A preference for simple, easy to understand solutions explained with no technical jargon.
@@ -62,7 +62,7 @@ experience:
     code: https://github.com/metro-ontime
     description: Performance tracking for the Los Angeles Metro Rail Network.
     bullets: 
-      - Lead a partnership between Hack for LA & LA Metro to build an open-source on-time performance tool for the train network.
+      - Led a partnership between Hack for LA & LA Metro to build an open-source on-time performance tool for the train network.
       - Architected & coded a data analysis engine in Python to track vehicle locations over time and run automated statistical analyses continuously.
       - Optimized Python execution on large data sets with Pandas and Numpy libraries, achieving low computation times under tight resource contraints.
       - Wrote unit tests to improve reliability, resulting in a robust codebase that copes with challenging time and scheduling conditions.
@@ -116,9 +116,9 @@ experience:
       - CockpitCMS
     link:
     bullets: 
-      - Using React & Vue.js to rapidly develop high quality websites for small businesses.
+      - Used React & Vue.js to rapidly develop high quality websites for small businesses.
       - Achieved 100% SEO and Best Practises scores with Google Lighthouse Website Audit tool.
-      - I craft responsive, mobile-optimized page layouts with CSS - producing simple, clear and <i>content-focused</i> designs.
+      - Crafted responsive, mobile-optimized page layouts with CSS - producing simple, clear and <i>content-focused</i> designs.
       - Reduced infrastructure setup time to under 5 minutes for each new website with Docker and CockpitCMS as a RESTful API to serve content.
     id: ctswebdesign
     image: whiterabbit.jpg
@@ -126,7 +126,10 @@ portfolio:
   - title: RailStats LA
     tools: 
       - React
-      - Javascript
+      - Next.js
+      - Material-UI
+      - Node.js
+      - Express
       - Python
       - Pandas
       - QGIS
@@ -140,13 +143,14 @@ portfolio:
     image: railstats.jpg
   - title: Danny Fischer
     tools: 
+      - Sass/SCSS
       - OctoberCMS 
       - PHP
       - Google Calendar API
     link: https://dannyfischer.com.au/
     code: https://github.com/ctsexton/dannyfischer
     bullets: 
-      - Artist site built with OctoberCMS. 
+      - Musician site built with Sass and OctoberCMS.
       - Responsive, bold and colorful design.
       - Google Calendar integration for Events page - client can create/update/delete events directly from the Google Calendar app.
     id: dannyfischer
@@ -156,6 +160,7 @@ portfolio:
       - Vue
       - Vuetify
       - CockpitCMS
+      - Docker
     link: https://thomaswaltrichmusic.com/
     code: https://github.com/ctsexton/tomwaltrich/
     bullets: 
