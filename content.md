@@ -63,6 +63,7 @@ experience:
     description: Performance tracking for the Los Angeles Metro Rail Network.
     bullets: 
       - Led a partnership between Hack for LA & LA Metro to build an open-source on-time performance tool for the train network.
+      - Featured talk at LA Counts for Open Data Day 2019, discussing how RailStats LA is built on public APIs.
       - Architected & coded a data analysis engine in Python to track vehicle locations over time and run automated statistical analyses continuously.
       - Optimized Python execution on large data sets with Pandas and Numpy libraries, achieving low computation times under tight resource contraints.
       - Wrote unit tests to improve reliability, resulting in a robust codebase that copes with challenging time and scheduling conditions.
@@ -96,7 +97,7 @@ experience:
     tools: 
       - Ruby on Rails
       - PostgreSQL
-    link: https://www.whiterabbiticos.com/icos/neo
+    link: https://www.whiterabbiticos.com/
     bullets: 
       - Implemented the NEO coin ICO discovery page on popular cryptocurrency ICO discovery/news site.
       - Refactored Ruby on Rails app to improve page routing and separate content from layout logic.
@@ -118,7 +119,7 @@ experience:
     bullets: 
       - Used React & Vue.js to rapidly develop high quality websites for small businesses.
       - Achieved 100% SEO and Best Practises scores with Google Lighthouse Website Audit tool.
-      - Crafted responsive, mobile-optimized page layouts with CSS - producing simple, clear and <i>content-focused</i> designs.
+      - Crafted responsive, mobile-optimized page layouts with CSS - producing simple and <i>content-focused</i> designs.
       - Reduced infrastructure setup time to under 5 minutes for each new website with Docker and CockpitCMS as a RESTful API to serve content.
     id: ctswebdesign
     image: whiterabbit.jpg
