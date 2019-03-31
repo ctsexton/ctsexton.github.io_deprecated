@@ -142,6 +142,20 @@ portfolio:
       - Responsive page layouts built with Material-UI, implementing Material Design best practices for mobile-first web applications.
     id: railstatsla
     image: railstats.jpg
+  - title: DISCOJESUS
+    tools: 
+      - Vue
+      - Vuetify
+      - Docker
+    link: https://discojesus.wtf/
+    code: https://github.com/ctsexton/discojesus
+    bullets: 
+      - Responsive layout built with Vuetify.
+      - Font Awesome icons provide quick links to music vendors.
+      - Open graph tags improve SEO and social media sharing performance.
+      - Docker facilitates rapid deployments to production, enabling quick and easy updates.
+    id: discojesus
+    image: discojesus.jpg
   - title: Danny Fischer
     tools: 
       - Sass/SCSS
